@@ -26,7 +26,7 @@ const PostForm = () => {
 	}
 
 	return (
-		<>
+		<article className="post-form">
 			<Form onSubmit={onSubmit}>
 				<h2>Create a post:</h2>
 				<Form.Field>
@@ -49,7 +49,7 @@ const PostForm = () => {
 					</ul>
 				</div>
 			)}
-		</>
+		</article>
 	);
 };
 

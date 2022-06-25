@@ -34,7 +34,7 @@ const Login = () => {
 	return (
 		<div className="form-container">
 			<Form onSubmit={onSubmit} noValidate className={loading ? 'loading' : ''}>
-				<h1>Register</h1>
+				<h1>Login</h1>
 				<Form.Input
 					type="text"
 					label="Username"

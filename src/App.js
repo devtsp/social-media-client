@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Container } from 'semantic-ui-react';
 
 import 'semantic-ui-css/semantic.min.css';
 import './App.css';
@@ -17,18 +16,13 @@ function App() {
 	return (
 		<AuthProvider>
 			<Router>
-				<Container>
-					<MenuBar />
-					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/login" element={<AuthRoute element={Login} />} />
-						<Route
-							path="/register"
-							element={<AuthRoute element={Register} />}
-						/>
-						<Route path="/posts/:postId" element={<SinglePost />} />
-					</Routes>
-				</Container>
+				<MenuBar />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/login" element={<AuthRoute element={Login} />} />
+					<Route path="/register" element={<AuthRoute element={Register} />} />
+					<Route path="/posts/:postId" element={<SinglePost />} />
+				</Routes>
 			</Router>
 		</AuthProvider>
 	);

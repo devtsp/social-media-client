@@ -2,6 +2,7 @@
 	display: block !important;
 	text-align: center;
 }
+
 .form-container {
 	width: 400px;
 	margin: auto;
@@ -10,4 +11,56 @@
 .ui.teal.button:focus,
 .ui.teal.buttons .button:focus {
 	background-color: #00b5ad;
+}
+
+/* ================================ HOME */
+
+.Home {
+	width: 60%;
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Home .post-form {
+	width: 40%;
+	margin-bottom: 1rem;
+}
+
+/* ================================= SINGLE POST PAGE */
+
+.SinglePost .post {
+	display: flex;
+	margin: auto;
+	max-width: 700px;
+}
+
+.SinglePost .post img {
+	height: 5rem;
+	width: auto;
+	margin: 1rem;
+}
+
+.SinglePost .post div.ui.fluid.card {
+	margin: 1rem 1rem 1rem 0;
+}
+
+.SinglePost .comment-section {
+	max-width: 700px;
+	margin: auto;
+	padding: 1rem;
+}
+
+/* BREAKPOINTS */
+
+@media all and (max-width: 600px) {
+	.Home {
+		width: 100%;
+	}
+
+	.Home .post-form {
+		width: 100%;
+		padding: 1rem;
+	}
 }
