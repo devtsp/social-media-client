@@ -2,7 +2,7 @@
 	"name": "social-media-client",
 	"version": "0.1.0",
 	"private": false,
-	"homepage": "https://github.com/devtsp/social-media-client",
+	"homepage": "https://devtsp.github.io/social-media-client",
 	"dependencies": {
 		"@apollo/client": "^3.5.10",
 		"@semantic-ui-react/css-patch": "^1.0.0",
