@@ -12,7 +12,7 @@ App features:
 - Create and delete posts/comments
 - Feed and single post page
 
-## [LAUNCH THE APP](https://delightful-cascaron-53270c.netlify.app/)
+## [LAUNCH THE APP](https://devtsp.github.io/social-media-client/)
 
 You can also check the server I wrote for this app in [THIS REPO](https://github.com/devtsp/social-media-app)
 
