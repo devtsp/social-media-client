@@ -14,7 +14,7 @@ App features:
 
 ## [LAUNCH THE APP](https://devtsp.github.io/social-media-client/)
 
-You can also check the server I wrote for this app in [THIS REPO](https://github.com/devtsp/social-media-app)
+Server side code [HERE](https://github.com/devtsp/social-media-server)
 
 ---
 
