@@ -19,7 +19,7 @@ const Home = () => {
 			) : (
 				<Transition.Group>
 					{data?.getPosts &&
-						data.getPosts.map(post => <PostCard post={post} />)}
+						data.getPosts.map(post => <PostCard post={post} key={post.id} />)}
 				</Transition.Group>
 			)}
 		</section>
